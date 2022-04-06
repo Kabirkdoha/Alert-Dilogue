@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share" android:title="share" app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_screen_share_24">
+
+        <menu>
+
+            <item
+                android:id="@+id/fb" android:title="facebook" android:icon="@drawable/facebook"/>
+
+            <item
+                android:id="@+id/insta" android:title="instagram" android:icon="@drawable/instagram"/>
+
+            <item
+                android:id="@+id/whatsapp" android:title="whatsapp" android:icon="@drawable/whatsapp"/>
+
+        </menu>
+
+    </item>
+
+</menu>
